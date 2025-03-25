@@ -3,9 +3,6 @@ import Image from "next/image";
 import { assets } from "@/assets/assets";
 import { motion } from "motion/react";
 
-interface HeaderProps {
-  isDarkMode: boolean;
-}
 
 const Header = () => {
   return (

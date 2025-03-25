@@ -53,7 +53,7 @@ const Services = () => {
         transition={{ duration: 0.6, delay: 0.9 }}
         className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 my-10"
       >
-        {serviceData.map(({ icon, title, description, link }, index) => (
+        {serviceData.map(({ icon, title, description }, index) => (
           <motion.div
             whileHover={{ scale: 1.05 }}
             key={index}
