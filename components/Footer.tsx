@@ -21,9 +21,7 @@ const Footer = ({ isDarkMode }: FooterProps) => {
         <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
             <li><a target="_blank" href="https://github.com/Bhavykun">GitHub</a></li>
             <li></li>
-            <li><a target="_blank" href="www.linkedin.com/in/sirasanagandla-bhavyesh-6707b526a">LinekdIn</a></li>
-            <li></li>
-            <li><a target="_blank" href="https://x.com/bhavykyun">X</a></li>
+            <li><a target="_blank" href="www.linkedin.com/in/sirasanagandla-bhavyesh-6707b526a">LinkedIn</a></li>
             <li></li>
             <li><a target="_blank" href="https://www.instagram.com/bhavykun/">Instagram</a></li>
             <li></li>
