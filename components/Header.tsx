@@ -7,7 +7,7 @@ interface HeaderProps {
   isDarkMode: boolean;
 }
 
-const Header: React.FC<HeaderProps> = ({ isDarkMode }) => {
+const Header = () => {
   return (
     <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
       <motion.div
@@ -27,21 +27,26 @@ const Header: React.FC<HeaderProps> = ({ isDarkMode }) => {
         transition={{ duration: 0.6, delay: 0.3 }}
         className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo"
       >
-        Hi! I'm Sirasanagandla Bhavyesh{" "}
+        Hi! I&apos;m Sirasanagandla Bhavyesh{" "}
         <Image src={assets.hand_icon} alt="icon" className="w-6" />
       </motion.h3>
-      <motion.h1 
-      initial={{ y: -30, opacity: 0 }}
-      whileInView={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.8, delay: 0.5 }}
-      className="text-3xl sm:text-6xl lg:text-[66px] font-ovo">
-        Passionate Full-Stack Developer 
+      <motion.h1
+        initial={{ y: -30, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.8, delay: 0.5 }}
+        className="text-3xl sm:text-6xl lg:text-[66px] font-ovo"
+      >
+        Passionate Full-Stack Developer
       </motion.h1>
-      <motion.p 
-      initial={{opacity: 0 }}
-      whileInView={{opacity: 1 }}
-      transition={{ duration: 0.7, delay: 0.6 }}
-      className="max-w-2xl mx-auto font-ovo">Full-stack developer with experience in building scalable and dynamic web applications using modern technologies.</motion.p>
+      <motion.p
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.7, delay: 0.6 }}
+        className="max-w-2xl mx-auto font-ovo"
+      >
+        Full-stack developer with experience in building scalable and dynamic
+        web applications using modern technologies.
+      </motion.p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <motion.a
           initial={{ y: 30, opacity: 0 }}

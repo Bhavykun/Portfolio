@@ -56,7 +56,7 @@ const About: React.FC<AboutProps> = ({ isDarkMode }) => {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="flex-1"
         >
-          <p className="mb-10 max-w-2xl font-ovo">I'm a passionate full-stack developer with experience in building scalable web applications using modern technologies like React, Next.js, and Node.js. With a solid foundation in computer science and hands-on experience in multiple projects, I specialize in crafting efficient solutions. Always eager to learn and grow, I strive to bring innovation to every project I work on.</p>
+          <p className="mb-10 max-w-2xl font-ovo">I&apos;m a passionate full-stack developer with experience in building scalable web applications using modern technologies like React, Next.js, and Node.js. With a solid foundation in computer science and hands-on experience in multiple projects, I specialize in crafting efficient solutions. Always eager to learn and grow, I strive to bring innovation to every project I work on.</p>
           <motion.ul
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
